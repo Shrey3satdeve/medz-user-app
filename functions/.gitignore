@@ -1,0 +1,20 @@
+
+# Compiled JavaScript files
+lib/
+
+# TypeScript definitions
+*.d.ts
+
+# Node Modules
+node_modules/
+
+# Logs
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

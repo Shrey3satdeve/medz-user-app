@@ -1,0 +1,19 @@
+--------- beginning of main
+01-24 11:55:26.981 I/ReactNativeJS(20365): Running "HomeMenu
+01-24 11:55:26.995 I/ReactNative(20365): [GESTURE HANDLER] Initialize gesture handler for root view versioned.host.exp.exponent.ReactUnthemedRootView{78b308a V.E...... ......ID 0,0-1080,2337 #83}
+01-24 11:55:56.074 E/ReactNativeJS(20365): Error: Exception in HostObject::get for prop 'NativeUnimoduleProxy': java.lang.SecurityException: Permission Denial: registerScreenCaptureObserver from pid=20365, uid=10219 requires android.permission.DETECT_SCREEN_CAPTURE, js engine: hermes
+01-24 11:55:56.095 I/ReactNativeJS(20365): Running "main" with {"initialProps":{"exp":{"shell":false,"manifestString":"{\"id\":\"b39d3933-30c8-43a1-be2b-d9b7736bc690\",\"createdAt\":\"2026-01-24T06:25:46.697Z\",\"runtimeVersion\":\"exposdk:50.0.0\",\"launchAsset\":{\"key\":\"bundle\",\"contentType\":\"application\\/javascript\",\"url\":\"http:\\/\\/172.25.237.43:8081\\/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&lazy=true&transform.engine=hermes&transform.bytecode=true&transform.routerRoot=app\"},\"assets\":[],\"metadata\":{},\"extra\":{\"eas\":{},\"expoClient\":{\"name\":\"Medz\",\"slug\":\"medz-healthcare\",\"version\":\"1.0.0\",\"orientation\":\"portrait\",\"userInterfaceStyle\":\"light\",\"splash\":{\"backgroundColor\":\"#16a34a\"},\"assetBundlePatterns\":[\"**\\/*\"],\"ios\":{\"supportsTablet\":true},\"android\":{\"package\":\"com.medz.healthcare\",\"permissions\":[]},\"web\":{},\"_internal\":{\"isDebug\":false,\"projectRoot\":\"D:\\\\medz (1)\",\"dynamicConfigPath\":null,\"staticConfigPath\":\"D:\\\\medz (1)\\\\app.json\",\"packageJsonPath\":\"D:\\\\medz (1)\\\\package.json\"},\"sdkVersion\":\"50.0.0\",\"platforms\":[\"ios\",\"android\",\"web\"],\"hostUri\":\"172.25.237.43:8081\"},\"expoGo\":{\"debuggerHost\":\"172.25.237.43:8081\",\"developer\":{\"tool\":\"expo-cli\",\"projectRoot\":\"D:\\\\medz (1)\"},\"packagerOpts\":{\"dev\":true},\"mainModuleName\":\"node_modules\\\\expo\\\\AppEntry\",\"__flipperHack\":\"React Native packager is running\"},\"scopeKey\":\"@anonymous\\/medz-healthcare-2883a443-365e-4e18-8de5-4e7c3105b023\"},\"isVerified\":true,\"name\":\"My New Experience\",\"primaryColor\":\"#023C69\",\"iconUrl\":\"https:\\/\\/d3lwq5rlu14cro.cloudfront.net\\/ExponentEmptyManifest_192.png\",\"orientation\":\"default\"}"}},"rootTag":151}
+01-24 11:55:56.096 E/ReactNativeJS(20365): Invariant Violation: "main" has not been registered. This can happen if:
+01-24 11:55:56.096 E/ReactNativeJS(20365): * Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.
+01-24 11:55:56.096 E/ReactNativeJS(20365): * A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called., js engine: hermes
+01-24 11:56:08.262 W/ReactNativeJS(20365): Cannot connect to Metro.
+01-24 11:56:08.262 W/ReactNativeJS(20365): 
+01-24 11:56:08.262 W/ReactNativeJS(20365): Try the following to fix the issue:
+01-24 11:56:08.262 W/ReactNativeJS(20365): - Ensure that Metro is running and available on the same network
+01-24 11:56:08.262 W/ReactNativeJS(20365): - Ensure that your device/emulator is connected to your machine and has USB debugging enabled - run 'adb devices' to see a list of connected devices
+01-24 11:56:08.262 W/ReactNativeJS(20365): - If you're on a physical device connected to the same machine, run 'adb reverse tcp:8081 tcp:8081' to forward requests from your device
+01-24 11:56:08.262 W/ReactNativeJS(20365): - If your device is on the same Wi-Fi network, set 'Debug server host & port for device' in 'Dev settings' to your machine's IP address and the port of the local dev server - e.g. 10.0.1.1:8081
+01-24 11:56:08.262 W/ReactNativeJS(20365): 
+01-24 11:56:08.262 W/ReactNativeJS(20365): URL: 172.25.237.43:8081
+01-24 11:56:08.262 W/ReactNativeJS(20365): 
+01-24 11:56:08.262 W/ReactNativeJS(20365): Error: Connection reset

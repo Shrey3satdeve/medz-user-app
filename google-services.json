@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1039562913389",
+    "project_id": "usermedzapp09",
+    "storage_bucket": "usermedzapp09.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039562913389:android:770ad3b3a32131f7d33164",
+        "android_client_info": {
+          "package_name": "com.medz.healthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039562913389-ssnnblkcgu0o7pednehr39qbh1ec064d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medz.healthcare",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1039562913389-tftbnmk02i9uvts3qiku4s5qkbdbcb44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxF6ZrV3SgOc9c9dq7nRfE9DGrYZ78RRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039562913389-tftbnmk02i9uvts3qiku4s5qkbdbcb44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

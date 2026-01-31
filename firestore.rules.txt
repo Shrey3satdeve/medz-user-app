@@ -1,0 +1,52 @@
+// Firestore Security Rules for Medz App
+// Copy these rules to Firebase Console -> Firestore -> Rules
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Users can read/write their own data
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      
+      // Orders subcollection
+      match /orders/{orderId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      
+      // Lab Reports subcollection
+      match /labReports/{reportId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      
+      // Appointments subcollection
+      match /appointments/{appointmentId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+    
+    // ADMIN ACCESS: Allow reading ALL orders for admin panel
+    // WARNING: In production, use Firebase Admin SDK or custom claims
+    match /{path=**}/orders/{orderId} {
+      allow read, write: if true; // For development - allows admin panel to read all orders
+    }
+  }
+}
+
+/*
+SETUP INSTRUCTIONS:
+
+1. Go to Firebase Console: https://console.firebase.google.com/project/usermedzapp09/firestore/rules
+2. Replace the existing rules with the rules above
+3. Click "Publish"
+
+4. Create Collection Group Index:
+   Go to: https://console.firebase.google.com/project/usermedzapp09/firestore/indexes
+   Click "Add Index" -> "Collection group"
+   - Collection Group ID: orders
+   - Fields: createdAt (Descending)
+   - Query Scope: Collection Group
+   Click "Create"
+
+After doing this, the admin panel will show all orders in real-time!
+*/

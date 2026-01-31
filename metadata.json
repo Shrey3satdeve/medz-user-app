@@ -1,0 +1,5 @@
+{
+  "name": "medz",
+  "description": "A React web application simulating a mobile pharmacy app experience with tab navigation, product listings, and user profile.",
+  "requestFramePermissions": []
+}
