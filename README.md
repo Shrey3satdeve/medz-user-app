@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# Medz User App
+
+A React Native healthcare application for ordering medicines, booking lab tests, and managing health essentials.
+
+## Screenshots
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="screenshots/screen1.png" width="30%" alt="Splash Screen" />
+  <img src="screenshots/screen2.png" width="30%" alt="Login Screen" />
+  <img src="screenshots/screen3.png" width="30%" alt="Home Screen" />
+  <img src="screenshots/screen4.png" width="30%" alt="Pharmacy" />
+  <img src="screenshots/screen5.png" width="30%" alt="Products" />
 </div>
 
-# Run and deploy your AI Studio app
+## Features
 
-This contains everything you need to run your app locally.
+-   **Order Medicines**: Browse and order medicines from a wide range of categories.
+-   **Lab Tests**: Book diagnostic tests from certified labs.
+-   **Pet Care**: Essentials for your pets.
+-   **Secure Checkout**: Validation for payments and address.
+-   **Live Location**: Pinpoint your exact delivery location.
 
-View your app in AI Studio: https://ai.studio/apps/drive/15jVx7YRKUWQl1OXuSoyOovIo3LXKKY4t
+## Getting Started
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1.  Clone the repository.
+2.  Run `npm install`.
+3.  Run `npm start`.
